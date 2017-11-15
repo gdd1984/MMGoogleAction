@@ -53,7 +53,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
         // prepare the header
         var postheaders = {
             'Content-Type' : 'application/json',
-            'Authorization' : 'Basic MGlhaEprODRaaG9kZFROcGtyMnM6RkVMMDZBV1h1VlIwNXdocWtNbmY2MUZzVHpxa3Fo'
+            'Authorization' : 'Basic REPLACE-WITH-BASE64-ENCODED-USERNAME-PASSWORD'
         };
 
         // the post options
